@@ -95,7 +95,7 @@ class QuickDrawView(context: Context) : FrameLayout(context), FloatingView {
 	init {
 		val drawView = LayoutInflater.from(context).inflate(R.layout.quick_draw_view, this).draw_view
 		drawView.setBackgroundDrawColor(Color.WHITE)
-		drawView.backgroundColor = Color.WHITE
+		drawView.backgroundColor = Color.TRANSPARENT
 		drawView.setDrawViewBackgroundColor(Color.WHITE)
 		drawView.drawWidth = 8
 		drawView.drawColor = Color.GRAY
